@@ -6,11 +6,22 @@ Be sure to read [What's Stochastix?](/introduction.md) page to understand the fr
 
 ## Docker Installation <Badge type="tip" text="Recommended" />
 
-::: tip The Easy Way
-This is the fastest and easiest way to get started with a fresh Stochastix project. The installer handles the creation of a new Symfony application, installation of the Stochastix bundle, and Docker configuration in a single command.
+This is the fastest and easiest way to get started with a fresh Stochastix project. You do not need any prior knowledge of Docker to use this method; you just need to have Docker Desktop installed on your system.
+
+::: info Prerequisites
+
+1.  **Install Docker Desktop**: Download and install the version for your operating system from the official website.
+
+      * [**Download Docker Desktop**](https://www.docker.com/products/docker-desktop/)
+
+2.  **(Windows Users Only) Install WSL 2**: Docker Desktop on Windows requires the Windows Subsystem for Linux (WSL) 2 backend. If you don't have it installed, follow the official Microsoft guide.
+
+      * [**Microsoft's Guide to Installing WSL**](https://learn.microsoft.com/en-us/windows/wsl/install)
 :::
 
-Open your terminal and run the following command. Replace `your-project-name` with the desired directory name for your new project.
+### Run the Installer
+
+Once Docker Desktop is installed and running, open your terminal and run the following command. Replace `your-project-name` with the desired directory name for your new project.
 
 ```bash
 docker run --rm -it --pull=always -e HOST_PWD="$PWD" \
@@ -18,18 +29,22 @@ docker run --rm -it --pull=always -e HOST_PWD="$PWD" \
   ghcr.io/phpquant/stochastix-installer your-project-name
 ```
 
-The installer will:
+The installer will perform the following steps:
 
 1.  Create a new directory named `your-project-name`.
 2.  Set up a new Symfony project inside it.
 3.  Install the `stochastix/core` bundle and its dependencies.
-4.  Create `compose.yaml` file for a ready-to-use development environment.
+4.  Create a `compose.yaml` file for a ready-to-use development environment.
+
+### First Launch
 
 Once the process is complete, your Stochastix environment is now running and ready for use.
 
-You can access https://localhost in your web browser to access the user interface.
+You can access **https://localhost** in your web browser to access the user interface.
 
-Next step: visit the [Docker tooling](/docker-tooling.md) page to understand how to manage your Docker environment, including starting and stopping the containers, and launching commands inside the container.
+::: tip Next Step
+Visit the [Docker tooling](/docker-tooling) page to understand how to manage your Docker environment and run commands.
+:::
 
 ## Manual Installation
 
