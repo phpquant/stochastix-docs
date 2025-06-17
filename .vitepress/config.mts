@@ -41,6 +41,12 @@ export default defineConfig({
           { text: 'Multi-Series Custom Indicators', link: '/custom-indicator-multi-series' },
           { text: 'Plotting Custom Indicators', link: '/custom-indicator-plotting' },
         ]
+      },
+      {
+        text: 'Backtesting',
+        items: [
+          { text: 'Running a Backtest', link: '/running-backtests' },
+        ]
       }
     ],
 
