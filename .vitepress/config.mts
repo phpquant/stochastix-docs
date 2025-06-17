@@ -43,6 +43,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Data Management',
+        items: [
+          { text: 'Downloading Market Data', link: '/data-downloading' },
+        ]
+      },
+      {
         text: 'Backtesting',
         items: [
           { text: 'Running a Backtest', link: '/running-backtests' },
