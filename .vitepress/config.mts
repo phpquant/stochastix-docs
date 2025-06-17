@@ -46,6 +46,7 @@ export default defineConfig({
         text: 'Data Management',
         items: [
           { text: 'Downloading Market Data', link: '/data-downloading' },
+          { text: 'Inspecting & Validating Data', link: '/data-validation' },
         ]
       },
       {
