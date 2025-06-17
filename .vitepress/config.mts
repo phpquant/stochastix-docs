@@ -23,6 +23,12 @@ export default defineConfig({
           { text: 'Core Concepts', link: '/core-concepts' },
           { text: 'Configuration', link: '/configuration' },
         ]
+      },
+      {
+        text: 'Writing strategies',
+        items: [
+          { text: 'Anatomy of a Strategy', link: '/anatomy' },
+        ]
       }
     ],
 
