@@ -29,6 +29,7 @@ export default defineConfig({
         items: [
           { text: 'Anatomy of a Strategy', link: '/anatomy' },
           { text: 'Using Indicators', link: '/using-indicators' },
+          { text: 'Placing Orders', link: '/placing-orders' },
         ]
       }
     ],
