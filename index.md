@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Stochastix"
   text: "High-Performance Quantitative Backtesting Engine"
-  tagline: "From hypothesis to statistical proof. A professional-grade PHP framework to build, test, and analyze your crypto-currencies trading strategies."
+  tagline: "From hypothesis to statistical proof. A PHP framework to build, test, and analyze your crypto-currencies trading strategies."
   image:
     src: /logo.svg
     alt: Stochastix

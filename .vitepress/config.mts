@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Stochastix",
   description: "High-Performance Quantitative Backtesting Engine",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -19,6 +20,7 @@ export default defineConfig({
           { text: "What's Stochastix?", link: '/introduction' },
           { text: 'Docker Tooling', link: '/docker-tooling' },
           { text: 'Project Structure', link: '/project-structure' },
+          { text: 'Core Concepts', link: '/core-concepts' },
         ]
       }
     ],

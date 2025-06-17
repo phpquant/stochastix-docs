@@ -2,6 +2,8 @@
 
 Welcome to Stochastix\! This guide will walk you through setting up the framework so you can start backtesting your first trading strategy. We offer two installation paths: a one-command Docker setup (recommended for new projects) and a manual setup for integrating Stochastix into existing Symfony applications.
 
+Be sure to read [What's Stochastix?](/introduction.md) page to understand the framework's purpose and capabilities before diving into the installation.
+
 ## Docker Installation <Badge type="tip" text="Recommended" />
 
 ::: tip The Easy Way
