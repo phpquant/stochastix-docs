@@ -33,6 +33,12 @@ export default defineConfig({
           { text: 'Position Sizing', link: '/position-sizing' },
           { text: 'Plotting & Visualization', link: '/plotting' },
         ]
+      },
+      {
+        text: 'Indicator Customization',
+        items: [
+          { text: 'Creating a Custom Indicator', link: '/custom-indicator-basics' },
+        ]
       }
     ],
 
