@@ -48,6 +48,7 @@ export default defineConfig({
           { text: 'Running a Backtest', link: '/running-backtests' },
           { text: 'Understanding the Results', link: '/understanding-results' },
           { text: 'Performance Metrics', link: '/performance-metrics' },
+          { text: 'Trade Analysis with Tags', link: '/analyzing-trades' },
         ]
       }
     ],
