@@ -34,6 +34,7 @@ export default defineConfig({
           { text: 'Position Sizing', link: '/position-sizing' },
           { text: 'Plotting & Visualization', link: '/plotting' },
           { text: 'Multi-Timeframe Strategies', link: '/multi-timeframe-strategies' },
+          { text: 'Advanced Order Management', link: '/advanced-orders' },
         ]
       },
       {
