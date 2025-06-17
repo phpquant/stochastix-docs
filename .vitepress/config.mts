@@ -48,6 +48,7 @@ export default defineConfig({
         items: [
           { text: 'Downloading Market Data', link: '/data-downloading' },
           { text: 'Inspecting & Validating Data', link: '/data-validation' },
+          { text: 'Inspecting Backtest Artifacts', link: '/inspecting-artifacts' },
           { text: 'Format Specification: OHLCV Data', link: '/spec-stchx' },
           { text: 'Format Specification: Time-Series Data', link: '/spec-timeseries' },
         ]
