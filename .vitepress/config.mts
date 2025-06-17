@@ -9,14 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/getting-started' }
+      { text: 'Getting Started', link: '/installation' }
     ],
 
     sidebar: [
       {
-        text: 'Guide',
+        text: 'Getting Started',
         items: [
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Installation', link: '/installation' },
           { text: "What's Stochastix?", link: '/introduction' },
           { text: 'Docker Tooling', link: '/docker-tooling' },
           { text: 'Project Structure', link: '/project-structure' },
@@ -46,6 +46,7 @@ export default defineConfig({
         text: 'Backtesting',
         items: [
           { text: 'Running a Backtest', link: '/running-backtests' },
+          { text: 'Understanding the Results', link: '/understanding-results' },
         ]
       }
     ],
