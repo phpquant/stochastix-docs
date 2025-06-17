@@ -33,6 +33,7 @@ export default defineConfig({
           { text: 'Placing Orders', link: '/placing-orders' },
           { text: 'Position Sizing', link: '/position-sizing' },
           { text: 'Plotting & Visualization', link: '/plotting' },
+          { text: 'Multi-Timeframe Strategies', link: '/multi-timeframe-strategies' },
         ]
       },
       {
