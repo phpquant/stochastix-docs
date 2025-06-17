@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Stochastix",
   description: "High-Performance Quantitative Backtesting Engine",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -47,6 +48,8 @@ export default defineConfig({
         items: [
           { text: 'Downloading Market Data', link: '/data-downloading' },
           { text: 'Inspecting & Validating Data', link: '/data-validation' },
+          { text: 'Format Specification: OHLCV Data', link: '/spec-stchx' },
+          { text: 'Format Specification: Time-Series Data', link: '/spec-timeseries' },
         ]
       },
       {
