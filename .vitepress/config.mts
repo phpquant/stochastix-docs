@@ -65,6 +65,12 @@ export default defineConfig({
           { text: 'Performance Metrics', link: '/performance-metrics' },
           { text: 'Trade Analysis with Tags', link: '/analyzing-trades' },
         ]
+      },
+      {
+        text: 'Stochastix UI',
+        items: [
+          { text: 'Screenshots', link: '/screenshots' },
+        ]
       }
     ],
 

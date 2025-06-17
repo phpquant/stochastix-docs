@@ -2,6 +2,10 @@
 
 When a backtest finishes running on the command line, it prints a comprehensive summary directly to your console. This summary is designed to give you an immediate, high-level overview of your strategy's performance, followed by a detailed log of its activity.
 
+::: tip UI Alternative
+While this guide details the CLI output, all of these results are presented in a rich, interactive format on the [**Backtest Results page in the UI**](./screenshots#backtest-results).
+:::
+
 ## Sample Command-Line Output
 
 Here is a sample output from a completed backtest run, which we will break down in the following sections.

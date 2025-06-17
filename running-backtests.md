@@ -5,7 +5,9 @@ Once you have created a strategy, the next step is to run it against historical 
 1.  **Command-Line Interface (CLI):** Ideal for automation, scripting, and precise control over all configuration parameters.
 2.  **User Interface (UI):** A web-based form that provides a user-friendly way to configure and launch backtests.
 
-This guide will focus on the CLI method, as it exposes the full power and flexibility of the backtesting engine.
+::: tip UI Alternative
+This guide will focus on the CLI method... For interactive use, backtests can be configured and launched from the [**New Backtest page in the UI**](./screenshots#new-backtest).
+:::
 
 ::: warning
 We're assuming Stochastix is installed using the Docker setup, which is the recommended way to run it. Therefore, we will use `make sf c="..."` to run commands in the Symfony container. If you're not using Docker, you can run the commands directly in your terminal using `php bin/console ...` instead.

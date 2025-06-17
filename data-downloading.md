@@ -4,6 +4,10 @@ Reliable backtesting starts with high-quality historical data. Stochastix provid
 
 Under the hood, this downloader uses the powerful CCXT library, giving you access to dozens of exchanges.
 
+::: tip UI Alternative
+While the CLI is powerful for scripting, these tasks can also be performed visually from the [**Data Management UI**](./screenshots#data-management).
+:::
+
 ## The Download Command
 
 The primary tool for fetching data is the `stochastix:data:download` command (alias: `stx:data:dl`).

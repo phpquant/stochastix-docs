@@ -4,6 +4,10 @@ The quality of your backtesting results is directly dependent on the quality of 
 
 Stochastix provides a dedicated command-line tool, `stochastix:data:info`, to help you with this process.
 
+::: tip UI Alternative
+Data files can also be inspected and validated from the [**Data Validation modal in the UI**](./screenshots#data-validation).
+:::
+
 ## The `data:info` Command
 
 This command reads a `.stchx` binary data file and displays its metadata and a sample of its content. Its most powerful feature is the ability to perform a full consistency validation on the data.
