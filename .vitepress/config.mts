@@ -38,6 +38,8 @@ export default defineConfig({
         text: 'Indicator Customization',
         items: [
           { text: 'Creating a Custom Indicator', link: '/custom-indicator-basics' },
+          { text: 'Multi-Series Custom Indicators', link: '/custom-indicator-multi-series' },
+          { text: 'Plotting Custom Indicators', link: '/custom-indicator-plotting' },
         ]
       }
     ],
