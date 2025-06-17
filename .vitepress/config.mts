@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'Docker Tooling', link: '/docker-tooling' },
           { text: 'Project Structure', link: '/project-structure' },
           { text: 'Core Concepts', link: '/core-concepts' },
+          { text: 'Configuration', link: '/configuration' },
         ]
       }
     ],
