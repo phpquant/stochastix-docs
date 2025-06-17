@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/stochastix-docs/',
   title: "Stochastix",
   description: "High-Performance Quantitative Backtesting Engine",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/stochastix-docs/favicon.ico' }]],
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.svg',
