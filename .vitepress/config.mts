@@ -28,6 +28,7 @@ export default defineConfig({
         text: 'Writing strategies',
         items: [
           { text: 'Anatomy of a Strategy', link: '/anatomy' },
+          { text: 'Using Indicators', link: '/using-indicators' },
         ]
       }
     ],
