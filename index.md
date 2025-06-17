@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /getting-started
+      link: /installation
     - theme: alt
       text: View on GitHub
       link: https://github.com/phpquant/stochastix-core

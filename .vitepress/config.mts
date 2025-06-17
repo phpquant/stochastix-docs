@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/stochastix-docs/',
   title: "Stochastix",
   description: "High-Performance Quantitative Backtesting Engine",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
