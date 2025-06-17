@@ -47,6 +47,7 @@ export default defineConfig({
         items: [
           { text: 'Running a Backtest', link: '/running-backtests' },
           { text: 'Understanding the Results', link: '/understanding-results' },
+          { text: 'Performance Metrics', link: '/performance-metrics' },
         ]
       }
     ],
