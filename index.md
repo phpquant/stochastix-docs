@@ -26,3 +26,31 @@ features:
   - title: "Modern Developer Experience"
     details: "Built on the robust Symfony framework. Define strategies and their inputs with simple, clean PHP attributes for a seamless and intuitive development workflow."
 ---
+
+<div class="image-container" style="display: flex; gap: 1rem; justify-content: space-around; margin-top: 4rem; flex-wrap: wrap;">
+
+  <div class="image-column" style="flex: 1; min-width: 300px; max-width: 32%;">
+    <a href="./installation" title="Get Started with Stochastix">
+      <img src="/screenshots/new_backtest.jpg" alt="Configure a new backtest in Stochastix" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+    </a>
+  </div>
+
+  <div class="image-column" style="flex: 1; min-width: 300px; max-width: 32%;">
+    <a href="./installation" title="Get Started with Stochastix">
+      <img src="/screenshots/backtest_results.jpg" alt="Analyze detailed backtest results and trade logs" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+    </a>
+  </div>
+
+  <div class="image-column" style="flex: 1; min-width: 300px; max-width: 32%;">
+    <a href="./installation" title="Get Started with Stochastix">
+      <img src="/screenshots/backtest_chart.jpg" alt="Visualize performance with interactive charts" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); transition: transform 0.2s ease;">
+    </a>
+  </div>
+
+</div>
+
+<style>
+  .image-column img:hover {
+    transform: scale(1.03);
+  }
+</style>
