@@ -25,6 +25,7 @@ export default defineConfig({
           { text: 'Project Structure', link: '/project-structure' },
           { text: 'Core Concepts', link: '/core-concepts' },
           { text: 'Configuration', link: '/configuration' },
+          { text: 'Upgrading', link: '/upgrading' },
         ]
       },
       {
